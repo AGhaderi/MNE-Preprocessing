@@ -1,7 +1,7 @@
 # MNE-Preprocessing
 
-EEG data routinely record as the continuous (Raw) signal which contains of the real source
-of brain signal, artifact and noise.
+Scientists recod usually EEG data as the continuous (Raw) signal which contains of the real source
+of brain signal, artifact and noise, therefore we need to attenuate the effects artifacts to make clear signals.  
 
 For preprocessing EEG data, the **MNE-Preprocessing repocitory** was implemented by the **MNE-package in python**.
 
