@@ -18,8 +18,8 @@ EOG component and heartbeat peak ECG component.
 
 ### Prerequisites
 
-[mne](https://mne.tools/stable/install/mne_python.html)
+- [mne](https://mne.tools/stable/install/mne_python.html)
 
-[numpy](https://numpy.org/install/)
+- [numpy](https://numpy.org/install/)
 
-[pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
+- [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
