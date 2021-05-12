@@ -4,7 +4,7 @@ Scientists usually record EEG data as the continuous (Raw) signal which consists
 
 For preprocessing EEG data, the **MNE-Preprocessing repocitory** is implemented by the [**MNE-package**](https://mne.tools/stable/index.html) in python.
 
-The preprocessing was performed as follows:
+The preprocessing is performed as follows:
 
 256 points as the **sampling rate**, **band-pass filter** in the range 1 Hz - 30 Hz, **re-referencing**
 with average of sensors, **visual inspection** to remove abnormal frequency, **interpolation** fully
