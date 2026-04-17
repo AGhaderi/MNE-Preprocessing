@@ -15,10 +15,7 @@ The script `rs_eeg_prep_for_psd_analysis` is designed for resting-state EEG prep
 - Visually inspected to identify noisy segments (e.g., muscle artifacts affecting multiple channels), which were manually labeled as `bad_artifact`
 - Bad channels (high-amplitude artifacts consistent across recordings) were removed and spherically interpolated
 - Data were re-referenced to the average reference
-- To enhance spatial specificity and reduce volume conduction at the sensor level, a **surface Laplacian (current source density, CSD)** transform was applied with parameters:
-  - Stiffness: *m = 4*
-  - Legendre polynomial: *80*
-  - Regularization parameter: *λ = 10⁻³*
+- To enhance spatial specificity and reduce volume conduction at the sensor level, a **surface Laplacian (current source density, CSD)** transform was applied with parameters (Stiffness: *m = 4*= Legendre polynomial= *80*, Regularization parameter= *λ = 10⁻³*)
 - Independent Component Analysis (ICA) using the **FastICA algorithm** was applied to identify and remove non-brain artifacts (e.g., eye blinks and muscle activity)
 
 ---
